@@ -1,0 +1,18 @@
+.triangle {
+   width: 200px;
+   height: 200px;
+   position: relative;
+   overflow: hidden;
+}
+
+.triangle:after {
+   content: "";
+   width: 100px;
+   height: 100px;
+   background: #000;
+   display: block;
+   transform: rotate(45deg);
+   position: absolute;
+   top: 50px;
+   left: -50px;
+}
